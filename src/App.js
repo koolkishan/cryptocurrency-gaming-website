@@ -8,18 +8,17 @@ import ScrollToTop from "components/ScrollToTop";
 import Designs from "components/designs";
 import scrollreveal from "scrollreveal";
 
-
 export default function App() {
-    useEffect(() => {
-      const registerAnimations = () => {
-        const sr = scrollreveal({
-          origin: "bottom",
-          distance: "80px",
-          duration: 2000,
-          reset: false,
-        });
-        sr.reveal(
-          `
+  useEffect(() => {
+    const registerAnimations = () => {
+      const sr = scrollreveal({
+        origin: "bottom",
+        distance: "80px",
+        duration: 2000,
+        reset: false,
+      });
+      sr.reveal(
+        `
         nav,
         #home,
         #buySell1,
@@ -28,14 +27,18 @@ export default function App() {
         #blogs,
         footer
     `,
-          {
-            opacity: 0,
-            interval: 500,
-          }
-        );
-      };
-      registerAnimations();
-    }, []);
+        {
+          opacity: 0,
+          interval: 500,
+        }
+      );
+    };
+    registerAnimations();
+  }, []);
+  window.setTimeout(() => {
+    const home = document.getElementById("home");
+    home.style.transform = "none";
+  }, 1500);
   return (
     <div>
       <ScrollToTop />

@@ -170,7 +170,7 @@ const Nav = styled.nav`
       top: 0;
     }
     .hide {
-      top: -500px;
+      top: -600px;
     }
   }
 `;

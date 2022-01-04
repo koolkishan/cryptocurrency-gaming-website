@@ -5,7 +5,6 @@ import image from "../assets/home.png";
 import Button from "./Button";
 import { RiGroupLine } from "react-icons/ri";
 export default function Home() {
-
   return (
     <Section id="home">
       <div className="text">
