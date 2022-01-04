@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.925038cc.css",
+    "main.js": "./static/js/main.fb2de6c6.js",
+    "static/media/background.png": "./static/media/background.6b9a0358d457f2b86c40.png",
+    "static/media/home.png": "./static/media/home.78729354ecccb9960454.png",
+    "static/media/buy-sell-1.png": "./static/media/buy-sell-1.3f8c6b319c12578cae8d.png",
+    "static/media/blog1.png": "./static/media/blog1.c085bfd2a029b70ef989.png",
+    "static/media/blog3.png": "./static/media/blog3.efebd4d71f6b14f784f7.png",
+    "static/media/buy-sell-3.png": "./static/media/buy-sell-3.4ea1a4dec2dd412caadc.png",
+    "static/media/blog2.png": "./static/media/blog2.20db232f85913ee6cbb3.png",
+    "static/media/buy-sell-2.png": "./static/media/buy-sell-2.0c53a1f5f09c68cc0970.png",
+    "static/media/design6.png": "./static/media/design6.7fd3380128e9f35b00e2.png",
+    "static/media/design1.png": "./static/media/design1.b82898cc25fb8b49ce37.png",
+    "static/media/design7.png": "./static/media/design7.533d44362b659acd0d3c.png",
+    "static/media/design3.png": "./static/media/design3.1f5c2966a209b4d31b70.png",
+    "static/media/design2.png": "./static/media/design2.b0bc15e9c10458019f1c.png",
+    "index.html": "./index.html",
+    "main.925038cc.css.map": "./static/css/main.925038cc.css.map",
+    "main.fb2de6c6.js.map": "./static/js/main.fb2de6c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.925038cc.css",
+    "static/js/main.fb2de6c6.js"
+  ]
+}
