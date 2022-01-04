@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500&display=swap");
+
+:root {
+  --background-color: #01002a;
+  --primary-color: #fed700;
+  --hr-color: #c4c4c4;
+  --font-family: "Exo", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+}
+
+button {
+  font-family: var(--font-family);
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+
+  background-color: var(--primary-color);
+}
